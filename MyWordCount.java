@@ -22,7 +22,7 @@ public class MyWordCount {
 	// data/hamlet.txt (or fit.txt)
 	// In this method, we do not consider the order of tokens.
 	public List<WordCount> getWordCounts() {
-		List<set_student.WordCount> result = new LinkedList<>();
+		List<WordCount> result = new LinkedList<>();
 		for (String word: words) {
 			WordCount wc = new WordCount(word, countWord(word));
 			if (!result.contains(wc)) {
